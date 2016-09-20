@@ -1,0 +1,255 @@
+body {
+    background: #3e3b4a;
+    color: #ffffff;
+}
+
+@font-face {
+    font-family: Campton-BoldDEMO;
+    src: url(../fonts/Campton-BoldDEMO.otf);
+}
+
+@font-face {
+    font-family: Campton-LightDEMO;
+    src: url(../fonts/Campton-LightDEMO.otf);
+}
+
+@font-face {
+    font-family: OldStandard-Bold;
+    src: url(../fonts/OldStandard-Bold.ttf);
+}
+
+@font-face {
+    font-family: OldStandard-Regular;
+    src: url(../fonts/OldStandard-Regular.ttf);
+}
+
+.text_top {
+    color: #ffc7b0 !important;
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+    padding-top: 35px !important;
+    font-family: Campton-BoldDEMO !important;
+}
+
+.menu {
+    font-size: 12px;
+    font-family: Campton-BoldDEMO;
+    color: #797681;
+    text-transform: uppercase;
+    margin-top: 50%;
+}
+
+.logo h1 {
+    font-size: 48px;
+    font-family: Campton-BoldDEMO;
+    margin-bottom: 0px;
+}
+
+.logo p {
+    font-size: 13px;
+    font-family: OldStandard-Regular;
+    color: #797681;
+    margin-top: 0px;
+}
+
+.search p {
+    font-size: 12px;
+    font-family: Campton-BoldDEMO;
+    color: #797681;
+    text-transform: uppercase;
+    margin-top: 50%;
+}
+
+.search p .g_s {
+    transform: scaleX(-1);
+    font-size: 13px;
+}
+
+.btn_r_m {
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    border: 3px solid #ffe18f;
+    border-radius: 0px;
+    font-family: Campton-BoldDEMO;
+    font-size: 20px;
+}
+
+.btn_r {
+    color: #3d3c4a;
+    background: #ffe18f;
+    border: 3px solid #ffe18f;
+    border-radius: 0px;
+    font-family: Campton-BoldDEMO;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.btn_s {
+    color: white;
+    font-family: Campton-BoldDEMO;
+    font-size: 20px;
+    background: #66689c;
+    border-radius: 0px;
+    border: 1px solid #66689c;
+    margin-bottom: 10px;
+}
+
+.input_e {
+    text-align: center;
+    color: white;
+    font-family: Campton-BoldDEMO;
+    font-size: 20px;
+    background: #eb7b61;
+    border: 2px solid white;
+    border-radius: 0px;
+    margin: 40px 0px 20px 0px;
+}
+
+.respect {
+    font-size: 14px !important;
+    margin-bottom: 35px;
+}
+
+footer {
+    padding-bottom: 1%;
+}
+
+.copyr {
+    font-size: 14px;
+    font-family: Campton-LightDEMO;
+    color: #797681;
+    margin-top: 30%;
+}
+
+.social {
+    font-size: 23px;
+    color: #797681;
+    margin-top: 50%;
+}
+
+.first_block .buster {
+    background: url(../img/1.png) no-repeat center;
+    padding: 0px 0px 50px 40px;
+    background-size: cover;
+}
+
+.first_block .buster h1 {
+    font-size: 72px;
+    font-family: Campton-BoldDEMO;
+    width: 20%;
+}
+
+.first_block .buster p {
+    font-size: 36px;
+    font-family: Campton-LightDEMO;
+    width: 30%;
+}
+
+.first_block .buster .btn_r_m {
+    margin-top: 120px;
+    margin-bottom: -10px;
+}
+
+.second_block {
+    margin-top: 30px;
+}
+
+.second_block .peak {
+    background: url("../img/2.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0px 0px 50px 40px;
+}
+
+.second_block .peak h1 {
+    font-size: 48px;
+    font-family: Campton-BoldDEMO;
+
+}
+
+.second_block .peak p {
+    font-size: 24px;
+    font-family: Campton-LightDEMO;
+    width: 30%;
+}
+
+.second_block .peak .btn_r_m {
+    margin-top: 150px;
+    margin-bottom: -10px;
+}
+
+.second_block .good_things {
+    padding-top: 40px;
+    background: #eb7b61;
+}
+
+.second_block .good_things h1 {
+    font-size: 48px;
+    font-family: OldStandard-Bold;
+    margin-top: 30px;
+}
+
+.second_block .good_things p {
+    font-size: 24px;
+    font-family: OldStandard-Regular;
+}
+
+.third_block {
+    margin-top: 30px;
+}
+
+.third_block .t_b_pdg_top {
+    padding-top: 20%;
+}
+
+.third_block .leica_m {
+    background: url("../img/3.png") no-repeat center center;
+    font-family: Campton-BoldDEMO;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.third_block .leica_m h1 {
+    margin-bottom: 60%;
+}
+
+.third_block .trobla_a {
+    background: url("../img/4.png") no-repeat center center;
+    font-family: Campton-BoldDEMO;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.third_block .trobla_a h1 {
+    margin-bottom: 45%;
+}
+
+.third_block .leica_d {
+    background: url("../img/5.png") no-repeat center center;
+    padding-left: 43px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.third_block .leica_d h1 {
+    font-family: Campton-BoldDEMO;
+}
+
+.third_block .leica_d p {
+    font-family: Campton-LightDEMO;
+    font-size: 20px;
+    width: 50%;
+}
+
+.third_block .leica_d .btn_r_m {
+    margin-top: 135px;
+    margin-bottom: 40px;
+}
